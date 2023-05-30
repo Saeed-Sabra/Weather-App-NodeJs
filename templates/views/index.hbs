@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Main Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="/img/weather.png">
+</head>
+
+<body>
+    <div class="main-cont">
+
+        {{>header}}
+        <p>This site to get your weather!</p>
+        <form action="">
+            <input type="text" id="city-name" placeholder="Enter city name">
+            <input type="submit" id="butt" value="Search">
+        </form>
+
+        
+        <p id="mass-p1"></p>
+        <p id="mass-p2"></p>
+    </div>
+
+
+    {{>footer}}
+
+    <script src="/js/app.js"></script>
+
+</body>
+
+</html>
