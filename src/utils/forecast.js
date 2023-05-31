@@ -20,7 +20,7 @@ const forecast = (Latitude, Longitude, callback) => {
           " degrees out." +
           "It is feel like " +
           body.current.feelslike +
-          " degrees out." +
+          " degrees out. " +
           "The humidity is " +
           body.current.humidity +
           " %."
