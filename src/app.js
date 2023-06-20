@@ -21,22 +21,22 @@ app.use(express.static(publicPath));
 app.get("", (req, res) => {
   res.render("index", {
     title: "Weather",
-    name: "Saeed",
+    name: "Saeed Sabra",
   });
 });
 
 app.get("/about", (req, res) => {
   res.render("about", {
     title: "About Me!",
-    name: "Saeed",
+    name: "Saeed Sabra",
   });
 });
 
 app.get("/help", (req, res) => {
   res.render("help", {
-    helpText: "some text here",
+    helpText: "If you need help, you can contact us here:",
     title: "help",
-    name: "Saeed",
+    name: "Saeed Sabra",
   });
 });
 

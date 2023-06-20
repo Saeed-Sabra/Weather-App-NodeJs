@@ -1,7 +1,7 @@
 body {
     color: #333333;
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 650px;
+    max-width: 700px;
     margin: 0 auto;
     padding: 0 16px;
 
@@ -45,6 +45,7 @@ header a {
 
 .main-cont {
     flex-grow: 1;
+
 }
 
 #city-name {
@@ -60,4 +61,32 @@ header a {
     border-radius: 5px;
     padding: 8px;
     cursor: pointer;
+}
+
+.social {
+    margin-top: 25px;
+    font-size: 16px;
+
+}
+
+.social p {
+    margin: 0;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.social a {
+    margin-left: 10px;
+    color: var(--secondary-color);
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
 }
